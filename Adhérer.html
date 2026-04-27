@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhérer - SIOtech</title>
+    <link rel="stylesheet" href="/CSS/style5.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a class="logo" href="index.html">SIOtech</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Acceuil.html">Accueil</a></li>
+                <li><a href="A propos.html">À propos</a></li>
+                <li><a href="Vos droits.html">Vos droits</a></li>
+                <li><a href="Adhérer.html">Adhérer</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sect1">
+        <h1>Rejoignez-nous !</h1>
+        <p>En adhérant au SMHT, vous rejoignez une communauté de plus de 15 000 professionnels de la tech qui défendent ensemble leurs droits et leurs intérêts. Votre cotisation nous permet de financer nos actions juridiques.</p>
+    </section>
+
+    <section class="sect-avantages">
+        <div class="contenu-largeur">
+            <h2>Ce que vous obtenez en adhérant</h2>
+            <div class="grille-avantages">
+                <div class="bloc">
+                    <h3>Protection juridique illimitée</h3>
+                    <p>Nos avocats spécialisés en droit du travail vous accompagnent gratuitement dans tous vos litiges.</p>
+                </div>
+                <div class="bloc">
+                    <h3>Formations gratuites</h3>
+                    <p>Accédez à notre catalogue de formations : nouvelles technologies et gestion de carrière.</p>
+                </div>
+                <div class="bloc">
+                    <h3>Conseil salarial personnalisé</h3>
+                    <p>Bénéficiez de notre accompagnement pour négocier votre salaire et connaître votre valeur.</p>
+                </div>
+                <div class="bloc">
+                    <h3>Études et baromètres exclusifs</h3>
+                    <p>Recevez nos études sectorielles et nos baromètres de salaires tech.</p>
+                </div>
+                <div class="bloc">
+                    <h3>Réseau professionnel</h3>
+                    <p>Participez à nos événements (afterworks, conférences) et développez votre réseau.</p>
+                </div>
+                <div class="bloc">
+                    <h3>Newsletter hebdomadaire</h3>
+                    <p>Restez informé des actualités du secteur, des évolutions et de nos actions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect-tarifs alt">
+        <div class="contenu-largeur">
+            <h2>Cotisation adaptée à vos revenus</h2>
+            <p class="desc-section">Notre cotisation est calculée en fonction de votre salaire pour rester accessible à tous.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Salaire annuel brut</th>
+                        <th>Cotisation mensuelle</th>
+                        <th>Cotisation annuelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Moins de 30 000€</td>
+                        <td>15€</td>
+                        <td>180€</td>
+                    </tr>
+                    <tr>
+                        <td>30 000€ - 45 000€</td>
+                        <td>25€</td>
+                        <td>300€</td>
+                    </tr>
+                    <tr>
+                        <td>45 000€ - 60 000€</td>
+                        <td>35€</td>
+                        <td>420€</td>
+                    </tr>
+                    <tr>
+                        <td>60 000€ - 80 000€</td>
+                        <td>45€</td>
+                        <td>540€</td>
+                    </tr>
+                    <tr>
+                        <td>Plus de 80 000€</td>
+                        <td>55€</td>
+                        <td>660€</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="bloc-info">
+                <h3>Tarifs réduits :</h3>
+                <ul>
+                    <li>Étudiants et stagiaires : 5€/mois</li>
+                    <li>Demandeurs d'emploi : 10€/mois</li>
+                    <li>Retraités : 10€/mois</li>
+                </ul>
+                <p><strong>Note :</strong> La cotisation est déductible de vos impôts à hauteur de 66%.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect-formulaire">
+        <div class="contenu-largeur">
+            <h2>Remplir le formulaire d'adhésion</h2>
+            
+            <form action="#" method="post" class="form-style">
+                <h3>1. Informations personnelles</h3>
+                <div class="champ-groupe">
+                    <label>Civilité :</label>
+                    <input type="radio" name="civ" id="m" required> <label for="m" class="radio-txt">M.</label>
+                    <input type="radio" name="civ" id="mme"> <label for="mme" class="radio-txt">Mme</label>
+                </div>
+
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+
+                <label for="email">Email professionnel</label>
+                <input type="email" id="email" name="email" placeholder="nom@entreprise.com" required>
+
+                <h3>2. Situation professionnelle</h3>
+                <label for="statut">Statut actuel</label>
+                <select id="statut" name="statut">
+                    <option value="salarie">Salarié</option>
+                    <option value="freelance">Freelance</option>
+                    <option value="etudiant">Étudiant</option>
+                    <option value="demandeur">Demandeur d'emploi</option>
+                </select>
+
+                <p style="margin-top:15px; font-weight:bold; color:#0c2d55; font-size:14px;">Secteur d'activité :</p>
+                <div class="checkbox-grille">
+                    <label><input type="checkbox" name="sec"> Développement</label>
+                    <label><input type="checkbox" name="sec"> Cybersécurité</label>
+                    <label><input type="checkbox" name="sec"> IA / Data</label>
+                    <label><input type="checkbox" name="sec"> Systèmes & Réseaux</label>
+                </div>
+
+                <h3>3. Paiement & Consentement</h3>
+                <label for="pay">Mode de paiement souhaité</label>
+                <select id="pay" name="pay">
+                    <option value="mensuel">Prélèvement automatique mensuel</option>
+                    <option value="annuel">Paiement annuel par virement</option>
+                </select>
+
+                <div class="consentement">
+                    <input type="checkbox" id="cgu" required>
+                    <label for="cgu" class="radio-txt">J'accepte les conditions générales d'adhésion</label>
+                </div>
+
+                <button type="submit" class="btn-valider">Valider mon adhésion</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="navigation">
+            <h2>Navigation</h2>
+            <ul>
+                <li>Accueil</li>
+                <li>À propos</li>
+                <li>Vos droits</li>
+                <li>Adhérer</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <h3>42 Avenue de la République, 69003 Lyon</h3>
+            <h3>04 72 10 07 09</h3>
+            <h3>contact@smht-syndicat.fr</h3>
+        </div>
+        <div class="Suivez-nous">
+            <h2>Suivez-nous</h2>
+            <h3>LinkedIn | Twitter | Facebook | Youtube</h3>
+        </div>
+        <div class="Légal">
+            <h2>Légal</h2>
+            <ul>
+                <li>Mentions légales</li>
+                <li>Politique de confidentialité</li>
+                <li>CGU</li>
+            </ul>
+        </div>
+        <h4 class="footer-copyright">© 2026 SMHT - Syndicat des Métiers de la Haute Technologie | Tous droits réservés</h4>
+    </footer>
+</body>
+</html>

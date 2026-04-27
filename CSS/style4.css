@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0c2d55;
+    color: #ffffff;
+}
+
+
+header {
+    background-color: #0c2d55;
+    padding: 18px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.sect1 {
+    background-color: #0c2d55;
+    padding: 60px 35px;
+    text-align: center;
+}
+ 
+.sect1 h1 {
+    color: white;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+ 
+.sect1 p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto;
+}
+ 
+ 
+/* ── Sections droits ── */
+ 
+.sect-droit {
+    background-color: #f4f4f4;
+    padding: 50px 35px;
+}
+ 
+.sect-droit.alt {
+    background-color: white;
+}
+ 
+.droit-contenu {
+    max-width: 900px;
+    margin: 0 auto;
+}
+ 
+.droit-contenu h2 {
+    font-size: 22px;
+    color: #0c2d55;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0c2d55;
+}
+ 
+ 
+/* ── Blocs dans chaque section ── */
+ 
+.bloc {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+}
+ 
+.sect-droit.alt .bloc {
+    background-color: #f4f4f4;
+}
+ 
+.bloc h3 {
+    font-size: 15px;
+    color: #0c2d55;
+    margin-bottom: 10px;
+}
+ 
+.bloc p {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.7;
+    margin: 0 0 8px 0;
+}
+ 
+.bloc ul {
+    margin: 0;
+    padding-left: 20px;
+}
+ 
+.bloc ul li {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.7;
+    margin-bottom: 6px;
+}
+ 
+ 
+/* ── Bloc alerte (vigilance) ── */
+ 
+.bloc.alerte {
+    border-left: 4px solid #e8a020;
+    border-radius: 0 8px 8px 0;
+}
+ 
+.bloc.alerte h3 {
+    color: #b07010;
+}
+ 
+ 
+/* ── Bloc accord (SMHT) ── */
+ 
+.bloc.accord {
+    border-left: 4px solid #0c2d55;
+    border-radius: 0 8px 8px 0;
+}
+ 
+ 
+/* ── Grille salariale ── */
+ 
+.grille-groupe {
+    margin: 12px 0;
+}
+ 
+.grille-ligne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+ 
+.grille-ligne:last-child {
+    border-bottom: none;
+}
+ 
+.grille-poste {
+    font-size: 14px;
+    color: #444444;
+}
+ 
+.grille-salaire {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0c2d55;
+}
+ 
+.note {
+    font-size: 12px;
+    color: #aaaaaa;
+    font-style: italic;
+    margin-top: 10px;
+}
+ 
+ 
+/* ── Section Besoin d'aide ── */
+ 
+.sect-aide {
+    background-color: #0c2d55;
+    padding: 60px 35px;
+    text-align: center;
+}
+ 
+.sect-aide h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+ 
+.sect-aide p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+ 
+.aide-boutons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+ 
+.btn-blanc {
+    background-color: white;
+    color: #0c2d55;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+ 
+.btn-blanc:hover {
+    background-color: #e0e0e0;
+}
+ 
+.btn-transparent {
+    background-color: transparent;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+ 
+.btn-transparent:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+ 
+ 
+/* ── Footer ── */
+ 
+.footer {
+    background-color: #0a1f38;
+    color: white;
+    padding: 40px 30px 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+ 
+.footer h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 8px;
+}
+ 
+.footer h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+ 
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.footer ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+ 
+.footer-copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.4);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 20px;
+    margin-top: 10px;
+}

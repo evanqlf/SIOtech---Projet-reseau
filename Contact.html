@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SIOtech</title>
+    <link rel="stylesheet" href="/CSS/style6.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a class="logo" href="index.html">SIOtech</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Acceuil.html">Accueil</a></li>
+                <li><a href="A propos.html">À propos</a></li>
+                <li><a href="Vos droits.html">Vos droits</a></li>
+                <li><a href="Adhérer.html">Adhérer</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sect1">
+        <h1>Contactez-nous</h1>
+        <p>Une question ? Un problème avec votre employeur ? Besoin d'un conseil ? Notre équipe est là pour vous aider du lundi au vendredi de 9h à 18h.</p>
+    </section>
+
+    
+    <section class="sect-coordonnees">
+        <h2 class="titre-section">Nos coordonnées</h2>
+        <div class="coordonnees-groupe">
+
+            <div class="coord-carte">
+                <h3>Siège social</h3>
+                <p>Syndicat des Métiers de la Haute Technologie (SMHT)</p>
+                <p>42 Avenue de la République</p>
+                <p>69003 Lyon, France</p>
+            </div>
+
+            <div class="coord-carte">
+                <h3>Téléphone</h3>
+                <p><strong>Standard :</strong> 04 72 XX XX XX</p>
+                <p><strong>Urgences :</strong> 06 12 XX XX XX</p>
+                <p class="note">Disponible 7j/7 pour les adhérents</p>
+            </div>
+
+            <div class="coord-carte">
+                <h3>Email</h3>
+                <p><strong>Contact général :</strong><br><a href="mailto:contact@smht-syndicat.fr">contact@smht-syndicat.fr</a></p>
+                <p><strong>Assistance juridique :</strong><br><a href="mailto:juridique@smht-syndicat.fr">juridique@smht-syndicat.fr</a></p>
+                <p><strong>Adhésion :</strong><br><a href="mailto:adhesion@smht-syndicat.fr">adhesion@smht-syndicat.fr</a></p>
+            </div>
+
+            <div class="coord-carte">
+                <h3>Horaires</h3>
+                <p>Du lundi au vendredi :<br><strong>9h00 - 18h00</strong></p>
+                <p class="note">Fermé le week-end et jours fériés</p>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section class="sect-carte">
+        <h2 class="titre-section">Nous trouver</h2>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.0!2d4.8357!3d45.7484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea4b7b3e1f3b%3A0x0!2s42+Avenue+de+la+R%C3%A9publique%2C+69003+Lyon!5e0!3m2!1sfr!2sfr!4v1"
+                width="100%"
+                height="350"
+                style="border: 0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    
+    <section class="sect-formulaire">
+        <h2 class="titre-section">Envoyez-nous un message</h2>
+        <form class="formulaire">
+
+            <div class="form-groupe-double">
+                <div class="form-champ">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                </div>
+                <div class="form-champ">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+                </div>
+            </div>
+
+            <div class="form-groupe-double">
+                <div class="form-champ">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre@email.fr">
+                </div>
+                <div class="form-champ">
+                    <label for="telephone">Téléphone (optionnel)</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="06 XX XX XX XX">
+                </div>
+            </div>
+
+            <div class="form-champ">
+                <label>Êtes-vous adhérent ?</label>
+                <div class="radio-groupe">
+                    <label class="radio-label"><input type="radio" name="adherent" value="oui"> Oui</label>
+                    <label class="radio-label"><input type="radio" name="adherent" value="non"> Non</label>
+                </div>
+            </div>
+
+            <div class="form-champ">
+                <label for="objet">Objet de votre demande</label>
+                <select id="objet" name="objet">
+                    <option value="">-- Sélectionnez un objet --</option>
+                    <option value="general">Question générale</option>
+                    <option value="adhesion">Demande d'adhésion</option>
+                    <option value="juridique">Assistance juridique</option>
+                    <option value="droits">Information sur mes droits</option>
+                    <option value="partenariat">Proposition de partenariat</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </div>
+
+            <div class="form-champ">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Décrivez votre demande..."></textarea>
+            </div>
+
+            <div class="form-champ">
+                <label class="checkbox-label">
+                    <input type="checkbox" name="rappel"> Je souhaite être recontacté par téléphone
+                </label>
+            </div>
+
+            <button type="submit" class="btn-envoyer">Envoyer</button>
+            <p class="engagement">Nous nous engageons à vous répondre sous 48h ouvrées.</p>
+
+        </form>
+    </section>
+
+    
+    <section class="sect-delegations">
+        <h2 class="titre-section">Nos délégations en France</h2>
+        <div class="delegations-groupe">
+
+            <div class="delegation-carte">
+                <h3>Auvergne-Rhône-Alpes</h3>
+                <p>Lyon</p>
+                <a href="mailto:lyon@smht-syndicat.fr">lyon@smht-syndicat.fr</a>
+                <p>04 72 XX XX XX</p>
+            </div>
+
+            <div class="delegation-carte">
+                <h3>Île-de-France</h3>
+                <p>Paris</p>
+                <a href="mailto:paris@smht-syndicat.fr">paris@smht-syndicat.fr</a>
+                <p>01 42 XX XX XX</p>
+            </div>
+
+            <div class="delegation-carte">
+                <h3>Provence-Alpes-Côte d'Azur</h3>
+                <p>Marseille</p>
+                <a href="mailto:marseille@smht-syndicat.fr">marseille@smht-syndicat.fr</a>
+                <p>04 91 XX XX XX</p>
+            </div>
+
+            <div class="delegation-carte">
+                <h3>Occitanie</h3>
+                <p>Toulouse</p>
+                <a href="mailto:toulouse@smht-syndicat.fr">toulouse@smht-syndicat.fr</a>
+                <p>05 61 XX XX XX</p>
+            </div>
+
+            <div class="delegation-carte">
+                <h3>Nouvelle-Aquitaine</h3>
+                <p>Bordeaux</p>
+                <a href="mailto:bordeaux@smht-syndicat.fr">bordeaux@smht-syndicat.fr</a>
+                <p>05 56 XX XX XX</p>
+            </div>
+
+            <div class="delegation-carte">
+                <h3>Grand Est</h3>
+                <p>Strasbourg</p>
+                <a href="mailto:strasbourg@smht-syndicat.fr">strasbourg@smht-syndicat.fr</a>
+                <p>03 88 XX XX XX</p>
+            </div>
+
+            <div class="delegation-carte">
+                <h3>Hauts-de-France</h3>
+                <p>Lille</p>
+                <a href="mailto:lille@smht-syndicat.fr">lille@smht-syndicat.fr</a>
+                <p>03 20 XX XX XX</p>
+            </div>
+
+            <div class="delegation-carte">
+                <h3>Bretagne</h3>
+                <p>Rennes</p>
+                <a href="mailto:rennes@smht-syndicat.fr">rennes@smht-syndicat.fr</a>
+                <p>02 99 XX XX XX</p>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section class="sect-reseaux">
+        <h2 class="titre-section-blanc">Suivez-nous</h2>
+        <p class="reseaux-intro">Restez connecté avec le SMHT sur les réseaux sociaux pour ne rien manquer de nos actualités, événements et actions.</p>
+        <div class="reseaux-groupe">
+            <a href="#" class="reseau-btn">LinkedIn<br><span>/entreprise/smht-syndicat</span></a>
+            <a href="#" class="reseau-btn">Twitter / X<br><span>@SMHT_officiel</span></a>
+            <a href="#" class="reseau-btn">Facebook<br><span>/SMHTsyndicat</span></a>
+            <a href="#" class="reseau-btn">YouTube<br><span>/SMHTsyndicat</span></a>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="navigation">
+            <h2>Navigation</h2>
+            <ul>
+                <li>Accueil</li>
+                <li>À propos</li>
+                <li>Vos droits</li>
+                <li>Adhérer</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <h3>42 Avenue de la République, 69003 Lyon</h3>
+            <h3>04 72 10 07 09</h3>
+            <h3>contact@smht-syndicat.fr</h3>
+        </div>
+        <div class="Suivez-nous">
+            <h2>Suivez-nous</h2>
+            <h3>LinkedIn | Twitter | Facebook | Youtube</h3>
+        </div>
+        <div class="Légal">
+            <h2>Légal</h2>
+            <ul>
+                <li>Mentions légales</li>
+                <li>Politique de confidentialité</li>
+                <li>CGU</li>
+            </ul>
+        </div>
+        <h4 class="footer-copyright">© 2026 SMHT - Syndicat des Métiers de la Haute Technologie | Tous droits réservés</h4>
+    </footer>
+
+</body>
+</html>

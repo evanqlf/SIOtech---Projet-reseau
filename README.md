@@ -53,7 +53,7 @@ Le site est hébergé sur une machine locale via **WAMP/XAMPP**.
 ---
 
 ## 🖼️ Aperçu
-
+ **Formulaire de contact**
 ![Formulaire de contact](apercu-formulaire.png)
 
 ---
@@ -61,7 +61,7 @@ Le site est hébergé sur une machine locale via **WAMP/XAMPP**.
 ## 👥 Auteurs
 
 - **Evan** — [@evanqlf](https://github.com/evanqlf)
-- **Mehdi** — [@[pseudo-mehdi]](https://github.com/[pseudo-mehdi])
+- **Mehdi** — Binôme de classe BTS SIO sur le projet
 
 > Projet réalisé en binôme dans le cadre du **BTS SIO**  
 > Contexte : Appel d'offre SMHT — Mise en place d'un système d'information
